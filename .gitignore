@@ -1,18 +1,18 @@
 #This file is of gitignore 
 
-version: '3.8'
-services:
-  backend:
-    build: ./backend
-    ports:
-      - "8000:8000"
-    volumes:
-      - ./backend:/app
+# Python
+__pycache__/
+*.py[cod]
+.venv/
 
-  frontend:
-    build: ./frontend
-    ports:
-      - "3000:3000"
-    volumes:
-      - ./frontend:/app
+# Node/Next.js
+node_modules/
+.next/
+
+# VSCode
+.vscode/
+
+# Env
+.env*
+
 
