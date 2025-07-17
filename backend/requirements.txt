@@ -1,1 +1,7 @@
 # This is requirements text file
+fastapi
+uvicorn
+python-dotenv
+yfinance
+TA-Lib
+pydantic
