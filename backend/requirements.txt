@@ -1,5 +1,0 @@
-# This is requirements text file
-fastapi
-uvicorn
-yfinance
-TA-Lib
